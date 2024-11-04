@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.cabecalho__imagem{
+    width: 5em;
+    height: 5em;
+}
+.cabecalho{
+    background-color: rgb(121, 121, 128);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.cabecalho__conteudo{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0 1em 0;
+    margin: 0 2em 0 2em;
+}
+.cabecalho__titulo{
+    text-align: center;
+}
+.cabecalho__lista{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+}
+.lista__item a{
+    margin-right: 2em;
+    text-decoration: none;
+    color: white;
+}
+.principal{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.trofeu{
+    width: 18em;
+    height: 18em;
+}
+.dedicatoria{
+    width: 60%;
+}
+.rodape{
+    background-color: grey;
+    padding: 1em;
+
+}
+.topo, 
+.meio,
+.baixo{
+    display: flex;
+    justify-content: space-between;
+}
+.rodape__lista{
+    display: flex;
+}
+.topo__container{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 1em 0 0 1em;
+}
+.topo__lista:not( :last-child)::after{
+    content: "|";
+    margin-left: 5px;
+    font-size: 32px;
+}
+.topo__lista p{
+    margin-left: 1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+.topo__ancora::after{
+    content: "|";
+    margin-left: 5px;
+    font-size: 32px;
+}
+.topo__ancora a{
+   text-decoration: none;
+   color: black;
+   font-weight: 700;
+   margin: 0 1em 0 1em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.meio{
+    padding: 1em;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+
+.meio__lista{
+    display: flex;
+    list-style-type: none;
+}
+.meio__item{
+    margin-right: 2em;
+}
+.meio__ancora a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: 700;
+
+}
+.meio__ancora::after{
+    content: "|";
+    margin: 5px;
+}
+.baixo__pltaut{
+    display: flex;
+}
+.icone{
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+.baixo__datr{
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+    text-align: center;
+}
+.baixo__datr p{
+    margin: 0 1em 0 1em;
+    font-style: none;
+}
