@@ -10,11 +10,14 @@ body{
     height: 5em;
 }
 .cabecalho{
-    background-color: rgb(121, 121, 128);
-    color: black;
+    color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
-}
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.37); /* Fundo preto com 80% de transparência */
+    z-index: 999; /* Garante que o cabeçalho fique acima dos outros elementos */
+  }
 .cabecalho__conteudo{
    
     display: flex;
