@@ -18,6 +18,44 @@ body{
     background-color: rgba(0, 0, 0, 0.37); /* Fundo preto com 80% de transparência */
     z-index: 999; /* Garante que o cabeçalho fique acima dos outros elementos */
   }
+  /* Estilo do formulário */
+.cabecalho__formulario {
+    display: flex;
+    gap: 8px; /* Espaço entre o input e o botão */
+    margin-top: 10px; /* Ajuste de espaçamento superior */
+}
+
+/* Estilo do input de pesquisa */
+.formulario__input {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.formulario__input:focus {
+    border-color: #007bff; /* Cor ao focar no input */
+    outline: none;
+}
+
+/* Estilo do botão de pesquisa */
+.formulario__botao {
+    padding: 3px 3px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.formulario__botao:hover {
+    background-color: #1eff00; /* Cor ao passar o mouse */
+}
+
 .cabecalho__conteudo{
    
     display: flex;
